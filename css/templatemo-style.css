@@ -249,7 +249,7 @@ header .social-icon li a
 /* start about */
 #about .media-heading-wrapper
 	{
-		padding-bottom: 32px;
+		padding-bottom: 1px;
 	}
 #about .media-heading-wrapper .fa
 	{

@@ -204,7 +204,7 @@ header .social-icon li a
 /* start home */
 #home
 	{
-		background: url('../images/home-bg.jpg') no-repeat;
+		background: url('../images/home.jpg') no-repeat;
 		background-size: cover;
 		padding-top: 160px;
 		padding-bottom: 100px;
@@ -346,6 +346,7 @@ header .social-icon li a
 	{
 		//padding: 0px;
 	}
+
 	.portfolio-thumb, 
 	.portfolio-overlay {
 		max-width: 450px;
@@ -594,3 +595,16 @@ header .social-icon li a
 
 }
 /* end 360 media quires */
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

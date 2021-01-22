@@ -338,6 +338,12 @@ header .social-icon li a
 /* end service */
 
 /* start portfolio */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
+}
 #portfolio
 	{
 		padding-bottom: 80px;
